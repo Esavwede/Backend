@@ -1,0 +1,39 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "a repository for industry standard authentification in node js",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file .env ./src/app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esavwede/Backend.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "backend",
+    "authentification",
+    "authorization",
+    "googleOauth"
+  ],
+  "author": "ogagaoghene esavwede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esavwede/Backend/issues"
+  },
+  "homepage": "https://github.com/Esavwede/Backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
