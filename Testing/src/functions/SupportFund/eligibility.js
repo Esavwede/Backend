@@ -5,7 +5,7 @@ function getEligibleApplicants( applicants )
 {
 
     var eligibleApplicants = [] 
-
+        
         for( applicant of applicants )
         {
             const {age, income, nationality } = applicant 

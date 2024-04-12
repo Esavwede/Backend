@@ -5,10 +5,8 @@ const applicants = require('./samples/supportFund/applicants')
 
 let eligibleApplicants = null 
 
-beforeEach(()=>{
+beforeAll(()=>{
     eligibleApplicants = getEligibleApplicants( applicants ) 
-    console.log('Eligible Applicants ')
-    console.dir( eligibleApplicants )
 })
 
 
@@ -41,5 +39,4 @@ describe(" Applicant Eligibility Tracker Tests ",()=>{
         }
     })
 
-
-})
+}) 

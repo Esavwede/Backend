@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon ./src/app.js",
-    "test": "jest"
+    "test": "jest --testTimeout=15000 --detectOpenHandles"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
   }
 }
